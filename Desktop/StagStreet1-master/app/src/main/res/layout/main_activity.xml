@@ -10,14 +10,10 @@
         android:scaleType="centerCrop"
 
 
-        />
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/linearLayout" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout">
 
-    </LinearLayout>
     <ImageView
         android:layout_width="210dp"
         android:layout_height="210dp"
@@ -26,7 +22,7 @@
         android:layout_marginTop="18dp"
         android:scaleType="centerInside"
         android:elevation="4dp"
-        />
+        android:id="@+id/imageView" />
 
     <ImageView
         android:id="@+id/profile_pic"
@@ -39,6 +35,121 @@
         android:layout_marginTop="26dp"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="#ffffff"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:elevation="12dp"
+
+
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Let's join us!Enter your email and "
+        android:gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:id="@+id/textView2"
+        android:elevation="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="password here"
+        android:gravity="center"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:elevation="8dp"
+        android:id="@+id/textView3" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#000000"
+        android:alpha="0.7"
+        android:id="@+id/imageView2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#000000"
+        android:alpha="0.7"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView3" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentStart="true">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE"
+        android:textColor="#ffffff"
+        android:background="#009A2C"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="30dp"
+        android:elevation="8dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginBottom="40dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/content"
+        android:textSize="15sp"
+        android:textColor="#A6A6A6"
+        android:id="@+id/textView4" />
 
 
 
