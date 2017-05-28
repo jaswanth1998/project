@@ -3,12 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/jaswanth/Desktop/StagStreet1-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/jaswanth/.android/build-cache/6e823618b6e3622f70d396904bed7d391bcf843b/output/jars/libs/nineoldandroids-library-2.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d25da3bfa1e14701c60b7a8cd41d21fe6065d04e">
-        <dex dex="/Users/jaswanth/Desktop/StagStreet1-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_139324b1ca8f9700800aa64eaf63ef2c669d286b/classes.dex" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/jaswanth/Desktop/StagStreet1-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/nineoldandroids-library-2.4.0_aedd5df92bc4dbc1217facfcd113cb2a87cb3ebc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaswanth/.android/build-cache/6e823618b6e3622f70d396904bed7d391bcf843b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e309b1df3051abebbfda31d1c80cd19bec617da">
+        <dex dex="/Users/jaswanth/Desktop/StagStreet1-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32a3f8a5d951bb21dd51fc0af5feb82103f17afe/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +27,15 @@
         revision="25.0.2"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="/Users/jaswanth/Desktop/StagStreet1-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_45cbab7f5c2bb65b4b90f1316139d12dead4466e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jaswanth/Desktop/StagStreet1-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5c16be2b6ee1b48a344407a1e5dcd1138649486">
+        <dex dex="/Users/jaswanth/Desktop/StagStreet1-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_139324b1ca8f9700800aa64eaf63ef2c669d286b/classes.dex" />
     </item>
 
 </items>

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">StagStreet</string>
     <string name="content">By signing up you agree to the <font fgcolor="#ffffff"><u><b>Terms of Serivice</b></u></font>and<font fgcolor="#ffffff"> <u><b>Privacy Policy</b></u></font></string>
-
+    <string name="email"><font fgcolor="#ffffff">Email</font></string>
+    <string name="password"><font fgcolor="#ffffff">Password</font></string>
+    <string name="title_activity_reside_menu">reside_menu</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.android.stagstreet;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.BlurMaskFilter;
@@ -11,6 +12,8 @@ import android.renderscript.ScriptIntrinsicBlur;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 /**
@@ -24,6 +27,17 @@ public class main_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         Bitmap bitmapOriginal;
+
+        Button but1=(Button) findViewById(R.id.button);
+        but1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(main_activity.this,sidemenu.class);
+                startActivity(intent);
+            }
+        });
+
+
         /**
          * created the round shape for the profile pic
          */
