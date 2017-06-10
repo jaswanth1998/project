@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/jaswanth/Desktop/android/gradleBuild/intermediates/res/merged/debug/layout/camera_connection_fragment_stylize.xml",
+        "source": "/Users/jaswanth/Desktop/android/res/layout/camera_connection_fragment_stylize.xml"
+    },
+    {
+        "merged": "/Users/jaswanth/Desktop/android/gradleBuild/intermediates/res/merged/debug/layout/camera_connection_fragment.xml",
+        "source": "/Users/jaswanth/Desktop/android/res/layout/camera_connection_fragment.xml"
+    },
+    {
+        "merged": "/Users/jaswanth/Desktop/android/gradleBuild/intermediates/res/merged/debug/layout/camera_connection_fragment_tracking.xml",
+        "source": "/Users/jaswanth/Desktop/android/res/layout/camera_connection_fragment_tracking.xml"
+    },
+    {
+        "merged": "/Users/jaswanth/Desktop/android/gradleBuild/intermediates/res/merged/debug/layout/activity_camera.xml",
+        "source": "/Users/jaswanth/Desktop/android/res/layout/activity_camera.xml"
+    }
+]

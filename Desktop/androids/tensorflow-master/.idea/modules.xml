@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/examples/android/android.iml" filepath="$PROJECT_DIR$/tensorflow/examples/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/contrib/android/android1.iml" filepath="$PROJECT_DIR$/tensorflow/contrib/android/android1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/contrib/android/cmake/src/main/main.iml" filepath="$PROJECT_DIR$/tensorflow/contrib/android/cmake/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/tensorboard/tensorboard.iml" filepath="$PROJECT_DIR$/tensorflow/tensorboard/tensorboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/java/src/test/test.iml" filepath="$PROJECT_DIR$/tensorflow/java/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensorflow/tools/tools.iml" filepath="$PROJECT_DIR$/tensorflow/tools/tools.iml" />
+    </modules>
+  </component>
+</project>
